@@ -1,4 +1,6 @@
-package com.example.todolist.util;
+package com.task_manager_sudy_project.task_manager_study_project.Util;
+
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -11,6 +13,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@Service
 public final class Generator {
     private static final List<String> loremWords = new ArrayList<>();
 
