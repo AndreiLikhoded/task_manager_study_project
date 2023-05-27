@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/postgres
+    username: postgres
+    password: qwerty
+    driver-class-name: org.postgresql.Driver
+
+logging:
+  pattern:
+    file: "%d %p %c{1.} [%t] %m%n"
+  file:
+    path: logs
+

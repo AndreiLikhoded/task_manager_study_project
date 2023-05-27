@@ -15,5 +15,4 @@ public class DayDao {
                 .tasks(tasks)
                 .build();
     }
-
 }

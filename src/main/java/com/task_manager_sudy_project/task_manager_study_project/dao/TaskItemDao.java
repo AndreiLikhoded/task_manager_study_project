@@ -2,11 +2,11 @@ package com.task_manager_sudy_project.task_manager_study_project.dao;
 
 import com.task_manager_sudy_project.task_manager_study_project.Util.Generator;
 import com.task_manager_sudy_project.task_manager_study_project.model.TaskItem;
+import com.task_manager_sudy_project.task_manager_study_project.model.TaskType;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.List;
+
 import java.util.Random;
 
 @Component
